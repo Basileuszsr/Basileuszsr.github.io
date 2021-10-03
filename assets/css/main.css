@@ -129,3 +129,12 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
     align-items: center;
     text-decoration: none;
 }
+
+link-item:visited {
+    color: red;
+}
+
+link-item:active {
+    color: orange;
+}
+
