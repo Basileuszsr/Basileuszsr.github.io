@@ -11,8 +11,8 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .mainheader {
-    height: 30px;
-    line-height: 30px;
+    height: 80px;
+    line-height: 80px;
     position: fixed;
     background-color: #333;
     width: 100%;
@@ -21,8 +21,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .mainheader-menu {
-    margin-right: 22.57%;
-    height: 30px;
+    height: 80px;
 }
 
 .visible-links {
