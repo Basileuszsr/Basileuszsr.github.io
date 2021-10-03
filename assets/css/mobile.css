@@ -22,7 +22,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 
 .mainheader-menu {
     margin-right: 22.57%;
-    height: 100px;
+    height: 30px;
 }
 
 .visible-links {
@@ -56,19 +56,12 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .home-name {
-    font-size: x-large;
     font-weight: bold;
     text-align: center;
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-left: 14.28%;
-    transition-duration: 0.5s
-}
-
-.home-name:hover {
-    transition-duration: 0.5s;
-    transform: scale(1.1, 1.1);
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0;
 }
 
 .grid-container {
