@@ -67,18 +67,18 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
     display: grid;
     grid-template-areas:
         "mainheader mainheader mainheader mainheader mainheader"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
-        "na maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "maincontent maincontent maincontent maincontent maincontent"
+        "leftside leftside leftside leftside leftside"
+        "leftside leftside leftside leftside leftside"
+        "leftside leftside leftside leftside leftside"
     ;
-    grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-gap: 5px;
 }
