@@ -82,7 +82,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
         "na maincontent maincontent maincontent maincontent"
         "na maincontent maincontent maincontent maincontent"
     ;
-    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-gap: 1px;
 }
@@ -103,7 +103,8 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 
 .self-intro {
     text-align: baseline;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 5px 5px;
+    margin-right: 5px;
 }
 
 #para {
@@ -118,7 +119,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 
 .links-of-mine {
     height: 20px;
-
+    margin-right: 8px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
