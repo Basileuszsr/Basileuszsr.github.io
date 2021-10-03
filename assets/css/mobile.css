@@ -71,28 +71,29 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
     display: grid;
     grid-template-areas:
         "mainheader mainheader mainheader mainheader mainheader"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na maincontent maincontent maincontent na"
-        "na leftside leftside leftside na"
-        "na leftside leftside leftside na"
-        "na leftside leftside leftside na"
+        "na leftside leftside leftside leftside"
+        "na leftside leftside leftside leftside"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
+        "na maincontent maincontent maincontent maincontent"
     ;
-    grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-gap: 5px;
+    grid-gap: 1px;
 }
 
 .leftside {
     grid-area: leftside;
     font-size: 10px;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .maincontent {
@@ -101,7 +102,8 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .self-intro {
-    padding: 5px 0px 5px 10px;
+    text-align: baseline;
+    padding: 5px 0px 5px 0px;
 }
 
 #para {
@@ -110,12 +112,18 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 #titleline {
-    padding: 5px 5px 5px 5px;
+    font-size: 10px;
+    padding: 5px 5px 5px 20px;
 }
 
 .links-of-mine {
     height: 20px;
+
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .link-item {
@@ -133,7 +141,13 @@ link-item:active {
 }
 
 #curr {
+    font-size: 5px;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 10px;
     padding: 5px 5px 5px 20px;
+}
+
+#myname {
+    width: 0%;
+    visibility: hidden;
 }
