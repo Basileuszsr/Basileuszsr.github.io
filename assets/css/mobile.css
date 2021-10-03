@@ -37,6 +37,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .menu-item a {
+    font-size: x-small;
     display: block;
     color: white;
     text-align: center;
@@ -55,6 +56,7 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 .home-name {
+    font-size: smaller;
     font-weight: bold;
     text-align: center;
     color: white;
@@ -67,18 +69,18 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
     display: grid;
     grid-template-areas:
         "mainheader mainheader mainheader mainheader mainheader"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "maincontent maincontent maincontent maincontent maincontent"
-        "leftside leftside leftside leftside leftside"
-        "leftside leftside leftside leftside leftside"
-        "leftside leftside leftside leftside leftside"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na maincontent maincontent maincontent na"
+        "na na leftside na na"
+        "na na leftside na na"
+        "na na leftside na na"
     ;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
     grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
     grid-gap: 5px;
 }
