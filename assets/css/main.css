@@ -1,0 +1,120 @@
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, a, abbr,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+    font-family: "San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif,Times,Georgia,Serif;
+	vertical-align: baseline;
+}
+
+.mainheader {
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainheader-menu {
+    margin-right: 22.57%;
+    height: 100px;
+}
+
+.visible-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+}
+
+.menu-item a:hover:not(#active) {
+    background-color: #555;
+    color: white;
+}
+
+#active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+.home-name {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 14.28%;
+    transition-duration: 0.5s
+}
+
+.home-name:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1, 1.1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "mainheader mainheader mainheader mainheader mainheader"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+        "na leftside maincontent maincontent rightside"
+    ;
+    grid-template-columns: 1fr 1fr 2fr 1fr 2fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-gap: 5px;
+}
+
+.leftside {
+    grid-area: leftside;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maincontent {
+    grid-area: maincontent;
+    font-size: 30px;
+}
+
+.self-intro {
+    padding: 20px 0px 20px 20px;
+}
+
+#para {
+    font-size: 22px;
+    padding: 20px 20px 20px 20px;
+}
+
+#titleline {
+    font-size: 30px;
+    padding: 20px 20px 20px 20px;
+}

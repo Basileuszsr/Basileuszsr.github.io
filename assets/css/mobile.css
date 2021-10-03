@@ -1,0 +1,8 @@
+.mainheader {
+    height: 200px;
+    line-height: 200px;
+    background: #ebac87;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
