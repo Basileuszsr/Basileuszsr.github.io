@@ -115,7 +115,6 @@ tfoot, thead, tr, th, td, article, footer, header, hgroup, menu, nav {
 }
 
 #titleline {
-    font-size: 30px;
     padding: 20px 20px 20px 20px;
 }
 
@@ -138,3 +137,8 @@ link-item:active {
     color: orange;
 }
 
+#curr {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 5px 5px 5px 20px;
+}
